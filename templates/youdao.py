@@ -46,11 +46,6 @@ def youdaomain(q):
         wordfrom = q['chinese']
     else:
         wordfrom = q['query']
-    if wordfrom == '王灵' or wordfrom == '王凌' or wordfrom == '王琳' or wordfrom == '王林':
-        wordfrom = '你是最美的'
-    if wordfrom == '王菱' or wordfrom == '网龄' or wordfrom == '王玲' or wordfrom == '亡灵':
-        wordfrom = '祝你生日快乐'
-
     tolanguage = q['tolanguage']
     result = {'diword': wordfrom, 'tolanguage': tolanguage}
 
